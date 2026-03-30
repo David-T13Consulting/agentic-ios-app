@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "./agentic-ios-app/src",
+        "./agentic-ios-app/app"
+      ],
+      "env": {}
+    }
+  }
+}

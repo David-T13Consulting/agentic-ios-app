@@ -1,0 +1,33 @@
+node_modules/
+.expo/
+dist/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Env
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Claude Code
+.claude/
+CLAUDE.md

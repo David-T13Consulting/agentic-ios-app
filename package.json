@@ -1,0 +1,51 @@
+{
+  "name": "agentic-ios-app",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo run:ios",
+    "android": "expo run:android",
+    "lint": "eslint .",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "prepare": "cd .. && husky agentic-ios-app/.husky"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@expo/vector-icons": "^14.0.0",
+    "expo": "~52.0.0",
+    "expo-constants": "~17.0.0",
+    "expo-linking": "~7.0.0",
+    "expo-router": "~4.0.0",
+    "expo-secure-store": "~14.0.0",
+    "expo-status-bar": "~2.0.0",
+    "nativewind": "^4.1.0",
+    "react": "18.3.1",
+    "react-native": "0.76.6",
+    "react-native-reanimated": "~3.16.0",
+    "react-native-safe-area-context": "4.14.0",
+    "react-native-screens": "~4.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@eslint/js": "^9.39.4",
+    "@testing-library/react-native": "^12.9.0",
+    "@types/jest": "^30.0.0",
+    "@types/react": "~18.3.0",
+    "eslint": "^9.0.0",
+    "husky": "^9.1.0",
+    "jest": "^29.7.0",
+    "jest-expo": "~52.0.0",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.3.0",
+    "react-test-renderer": "18.3.1",
+    "tailwindcss": "^3.4.0",
+    "typescript": "~5.6.0",
+    "typescript-eslint": "^8.57.0"
+  },
+  "private": true
+}
